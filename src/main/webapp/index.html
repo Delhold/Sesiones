@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Formulario de Producto</title>
+</head>
+<body>
+<h1>Ingrese la información del producto</h1>
+<form action="Servlet" method="post">
+    <label for="nombreProducto">Nombre del Producto:</label>
+    <input type="text" id="nombreProducto" name="nombreProducto" required><br>
+
+    <label for="cantidadProducto">Cantidad del Producto:</label>
+    <input type="number" id="cantidadProducto" name="cantidadProducto" required><br>
+
+    <label for="valorUnitario">Valor Unitario:</label>
+    <input type="number" step="0.01" id="valorUnitario" name="valorUnitario" required><br>
+
+    <input type="submit" value="Agregar Producto">
+</form>
+</body>
+</html>
